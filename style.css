@@ -1,0 +1,371 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#about-sec {
+  margin: 10px;
+
+}
+.container {
+
+width:40%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  border:5px solid black;
+  }
+  
+  
+  
+  
+#about-sec {
+ 
+  margin: 10px;
+ 
+}
+.container {
+
+width:40%;
+}  
+.colreverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: yellow;
+  border:5px solid black;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+#about-sec {
+ 
+  margin: 10px;
+ 
+}
+.container {
+
+width:40%;
+}  
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  border:5px solid black;
+  }
+  
+#about-sec {
+ 
+  margin: 10px;
+
+}
+.container {
+
+width:40%;
+}
+.rowreverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: yellow;
+  border:5px solid black;
+  }
+  
+  
+#about-sec {
+ 
+  margin: 10px;
+  border:2px solid red;
+  
+}
+.container {
+
+width:40%;
+}
+.flexwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  
+  background-color: yellow;
+  border:5px solid black;
+  }
+  
+#about-sec {
+ 
+  margin: 10px;
+
+}
+.container {
+
+width:40%;
+}
+.flexnowrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:no-wrap;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  border:5px solid black;
+  
+  flex-wrap:no-wrap;
+  }
+
+
+#about-sec {
+ 
+  margin: 10px;
+ 
+}
+.container {
+width:40%;
+}
+.abcd {
+  display: flex;
+  flex-wrap:wrap-reverse;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+    flex-wrap:wrap-reverse;
+  }
+  
+#about-sec {
+ 
+  margin: 10px;
+}
+.container {
+width:40%;
+}
+.shorthand {
+  display: flex;
+  flex-flow:row wrap;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+    flex-flow:row wrap;
+  
+  }
+  
+#about-sec {
+  margin: 10px;
+
+}
+.container {
+width:40%;
+}
+.Justify-center {
+  display: flex;
+  justify-content:center;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:center;
+  
+  }
+  
+  #about-sec {
+ 
+  margin: 10px;
+}
+.container {
+width:40%;
+}
+.Justify-flexstart {
+  display: flex;
+  justify-content:flexstart;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:flex-start;
+  
+  }
+  
+  #about-sec {
+ 
+  margin: 10px;
+
+}
+.container {
+width:40%;
+}
+.Justify-flexend{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:flex-end;
+  
+  }
+  
+  #about-sec {
+ 
+  margin: 10px;
+
+}
+.container {
+width:40%;
+}
+.Justify-spacearound{
+  display: flex;
+  justify-content:space-around;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:space-around;
+  
+  }
+  
+   #about-sec {
+ 
+  margin: 10px;
+
+}
+.container {
+width:40%;
+}
+.Justify-between{
+  display: flex;
+  justify-content:space-between;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:space-between;
+  
+  }
+  
+   #about-sec {
+ 
+  margin: 10px;
+}
+.container {
+width:40%;
+}
+.Justify-evenly{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:space-evenly;
+}
+
+#about-sec {
+ 
+  margin: 10px;
+}
+.container {
+width:40%;
+}
+.Flex-order{
+  display: flex;
+ flex:order;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  justify-content:space-evenly;
+}
+
+#about-sec {
+ 
+  margin: 10px;
+}
+.container {
+width:40%;
+}
+.Align-contentcenter{
+  display: flex;
+ flex-grow:8;
+ align-content: center;
+}
+
+.box {
+	width:100px;
+	height:100px;
+  background-color: yellow;
+  border:5px solid black;
+  align-content: center;
+}
+  
+  
